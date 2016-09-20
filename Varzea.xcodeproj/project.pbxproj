@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56A178FA1D90BB6C00D8B2C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A178F91D90BB6C00D8B2C7 /* main.m */; };
+		56A178FD1D90BB6C00D8B2C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A178FC1D90BB6C00D8B2C7 /* AppDelegate.m */; };
+		56A179001D90BB6C00D8B2C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A178FF1D90BB6C00D8B2C7 /* ViewController.m */; };
+		56A179031D90BB6C00D8B2C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A179011D90BB6C00D8B2C7 /* Main.storyboard */; };
+		56A179051D90BB6C00D8B2C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A179041D90BB6C00D8B2C7 /* Assets.xcassets */; };
+		56A179081D90BB6C00D8B2C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A179061D90BB6C00D8B2C7 /* LaunchScreen.storyboard */; };
+		56A179131D90BB6D00D8B2C7 /* VarzeaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A179121D90BB6D00D8B2C7 /* VarzeaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56A1790F1D90BB6D00D8B2C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56A178ED1D90BB6B00D8B2C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56A178F41D90BB6B00D8B2C7;
+			remoteInfo = Varzea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56A178F51D90BB6C00D8B2C7 /* Varzea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Varzea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A178F91D90BB6C00D8B2C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56A178FB1D90BB6C00D8B2C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56A178FC1D90BB6C00D8B2C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56A178FE1D90BB6C00D8B2C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		56A178FF1D90BB6C00D8B2C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56A179021D90BB6C00D8B2C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56A179041D90BB6C00D8B2C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56A179071D90BB6C00D8B2C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56A179091D90BB6C00D8B2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56A1790E1D90BB6D00D8B2C7 /* VarzeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VarzeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A179121D90BB6D00D8B2C7 /* VarzeaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VarzeaTests.m; sourceTree = "<group>"; };
+		56A179141D90BB6D00D8B2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56A178F21D90BB6B00D8B2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A1790B1D90BB6D00D8B2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56A178EC1D90BB6B00D8B2C7 = {
+			isa = PBXGroup;
+			children = (
+				56A178F71D90BB6C00D8B2C7 /* Varzea */,
+				56A179111D90BB6D00D8B2C7 /* VarzeaTests */,
+				56A178F61D90BB6C00D8B2C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56A178F61D90BB6C00D8B2C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56A178F51D90BB6C00D8B2C7 /* Varzea.app */,
+				56A1790E1D90BB6D00D8B2C7 /* VarzeaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56A178F71D90BB6C00D8B2C7 /* Varzea */ = {
+			isa = PBXGroup;
+			children = (
+				56A178FB1D90BB6C00D8B2C7 /* AppDelegate.h */,
+				56A178FC1D90BB6C00D8B2C7 /* AppDelegate.m */,
+				56A178FE1D90BB6C00D8B2C7 /* ViewController.h */,
+				56A178FF1D90BB6C00D8B2C7 /* ViewController.m */,
+				56A179011D90BB6C00D8B2C7 /* Main.storyboard */,
+				56A179041D90BB6C00D8B2C7 /* Assets.xcassets */,
+				56A179061D90BB6C00D8B2C7 /* LaunchScreen.storyboard */,
+				56A179091D90BB6C00D8B2C7 /* Info.plist */,
+				56A178F81D90BB6C00D8B2C7 /* Supporting Files */,
+			);
+			path = Varzea;
+			sourceTree = "<group>";
+		};
+		56A178F81D90BB6C00D8B2C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56A178F91D90BB6C00D8B2C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56A179111D90BB6D00D8B2C7 /* VarzeaTests */ = {
+			isa = PBXGroup;
+			children = (
+				56A179121D90BB6D00D8B2C7 /* VarzeaTests.m */,
+				56A179141D90BB6D00D8B2C7 /* Info.plist */,
+			);
+			path = VarzeaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56A178F41D90BB6B00D8B2C7 /* Varzea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A179171D90BB6D00D8B2C7 /* Build configuration list for PBXNativeTarget "Varzea" */;
+			buildPhases = (
+				56A178F11D90BB6B00D8B2C7 /* Sources */,
+				56A178F21D90BB6B00D8B2C7 /* Frameworks */,
+				56A178F31D90BB6B00D8B2C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Varzea;
+			productName = Varzea;
+			productReference = 56A178F51D90BB6C00D8B2C7 /* Varzea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56A1790D1D90BB6D00D8B2C7 /* VarzeaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A1791A1D90BB6D00D8B2C7 /* Build configuration list for PBXNativeTarget "VarzeaTests" */;
+			buildPhases = (
+				56A1790A1D90BB6D00D8B2C7 /* Sources */,
+				56A1790B1D90BB6D00D8B2C7 /* Frameworks */,
+				56A1790C1D90BB6D00D8B2C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56A179101D90BB6D00D8B2C7 /* PBXTargetDependency */,
+			);
+			name = VarzeaTests;
+			productName = VarzeaTests;
+			productReference = 56A1790E1D90BB6D00D8B2C7 /* VarzeaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56A178ED1D90BB6B00D8B2C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Paulo Gama";
+				TargetAttributes = {
+					56A178F41D90BB6B00D8B2C7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 68289LYC3X;
+						ProvisioningStyle = Automatic;
+					};
+					56A1790D1D90BB6D00D8B2C7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 68289LYC3X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 56A178F41D90BB6B00D8B2C7;
+					};
+				};
+			};
+			buildConfigurationList = 56A178F01D90BB6B00D8B2C7 /* Build configuration list for PBXProject "Varzea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56A178EC1D90BB6B00D8B2C7;
+			productRefGroup = 56A178F61D90BB6C00D8B2C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56A178F41D90BB6B00D8B2C7 /* Varzea */,
+				56A1790D1D90BB6D00D8B2C7 /* VarzeaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56A178F31D90BB6B00D8B2C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A179081D90BB6C00D8B2C7 /* LaunchScreen.storyboard in Resources */,
+				56A179051D90BB6C00D8B2C7 /* Assets.xcassets in Resources */,
+				56A179031D90BB6C00D8B2C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A1790C1D90BB6D00D8B2C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56A178F11D90BB6B00D8B2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A179001D90BB6C00D8B2C7 /* ViewController.m in Sources */,
+				56A178FD1D90BB6C00D8B2C7 /* AppDelegate.m in Sources */,
+				56A178FA1D90BB6C00D8B2C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A1790A1D90BB6D00D8B2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A179131D90BB6D00D8B2C7 /* VarzeaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56A179101D90BB6D00D8B2C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56A178F41D90BB6B00D8B2C7 /* Varzea */;
+			targetProxy = 56A1790F1D90BB6D00D8B2C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56A179011D90BB6C00D8B2C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56A179021D90BB6C00D8B2C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56A179061D90BB6C00D8B2C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56A179071D90BB6C00D8B2C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56A179151D90BB6D00D8B2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56A179161D90BB6D00D8B2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56A179181D90BB6D00D8B2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68289LYC3X;
+				INFOPLIST_FILE = Varzea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulogama.Varzea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		56A179191D90BB6D00D8B2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68289LYC3X;
+				INFOPLIST_FILE = Varzea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulogama.Varzea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		56A1791B1D90BB6D00D8B2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 68289LYC3X;
+				INFOPLIST_FILE = VarzeaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulogama.VarzeaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Varzea.app/Varzea";
+			};
+			name = Debug;
+		};
+		56A1791C1D90BB6D00D8B2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 68289LYC3X;
+				INFOPLIST_FILE = VarzeaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulogama.VarzeaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Varzea.app/Varzea";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56A178F01D90BB6B00D8B2C7 /* Build configuration list for PBXProject "Varzea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A179151D90BB6D00D8B2C7 /* Debug */,
+				56A179161D90BB6D00D8B2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56A179171D90BB6D00D8B2C7 /* Build configuration list for PBXNativeTarget "Varzea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A179181D90BB6D00D8B2C7 /* Debug */,
+				56A179191D90BB6D00D8B2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56A1791A1D90BB6D00D8B2C7 /* Build configuration list for PBXNativeTarget "VarzeaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A1791B1D90BB6D00D8B2C7 /* Debug */,
+				56A1791C1D90BB6D00D8B2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56A178ED1D90BB6B00D8B2C7 /* Project object */;
+}
