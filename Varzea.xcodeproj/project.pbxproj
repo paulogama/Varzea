@@ -13,9 +13,8 @@
 		56A179051D90BB6C00D8B2C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A179041D90BB6C00D8B2C7 /* Assets.xcassets */; };
 		56A179081D90BB6C00D8B2C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A179061D90BB6C00D8B2C7 /* LaunchScreen.storyboard */; };
 		56A179131D90BB6D00D8B2C7 /* VarzeaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A179121D90BB6D00D8B2C7 /* VarzeaTests.m */; };
-		56A179231D90BEA000D8B2C7 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 56A179201D90BEA000D8B2C7 /* Model */; };
-		56A179241D90BEA000D8B2C7 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 56A179211D90BEA000D8B2C7 /* View */; };
-		56A179251D90BEA000D8B2C7 /* ViewController in Resources */ = {isa = PBXBuildFile; fileRef = 56A179221D90BEA000D8B2C7 /* ViewController */; };
+		56A1792E1D90C7B800D8B2C7 /* PeladaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A1792D1D90C7B800D8B2C7 /* PeladaViewController.m */; };
+		56A179311D90CE2F00D8B2C7 /* DetalhesPeladaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A179301D90CE2F00D8B2C7 /* DetalhesPeladaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +39,10 @@
 		56A1790E1D90BB6D00D8B2C7 /* VarzeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VarzeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A179121D90BB6D00D8B2C7 /* VarzeaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VarzeaTests.m; sourceTree = "<group>"; };
 		56A179141D90BB6D00D8B2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56A179201D90BEA000D8B2C7 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
-		56A179211D90BEA000D8B2C7 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
-		56A179221D90BEA000D8B2C7 /* ViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewController; sourceTree = "<group>"; };
+		56A1792C1D90C7B800D8B2C7 /* PeladaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeladaViewController.h; path = ViewController/PeladaViewController.h; sourceTree = "<group>"; };
+		56A1792D1D90C7B800D8B2C7 /* PeladaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeladaViewController.m; path = ViewController/PeladaViewController.m; sourceTree = "<group>"; };
+		56A1792F1D90CE2F00D8B2C7 /* DetalhesPeladaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetalhesPeladaViewController.h; path = ViewController/DetalhesPeladaViewController.h; sourceTree = "<group>"; };
+		56A179301D90CE2F00D8B2C7 /* DetalhesPeladaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetalhesPeladaViewController.m; path = ViewController/DetalhesPeladaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +84,9 @@
 		56A178F71D90BB6C00D8B2C7 /* Varzea */ = {
 			isa = PBXGroup;
 			children = (
-				56A179201D90BEA000D8B2C7 /* Model */,
-				56A179211D90BEA000D8B2C7 /* View */,
-				56A179221D90BEA000D8B2C7 /* ViewController */,
+				56A179291D90C77E00D8B2C7 /* Model */,
+				56A1792A1D90C78A00D8B2C7 /* View */,
+				56A1792B1D90C78F00D8B2C7 /* ViewController */,
 				56A178FB1D90BB6C00D8B2C7 /* AppDelegate.h */,
 				56A178FC1D90BB6C00D8B2C7 /* AppDelegate.m */,
 				56A179011D90BB6C00D8B2C7 /* Main.storyboard */,
@@ -113,6 +113,31 @@
 				56A179141D90BB6D00D8B2C7 /* Info.plist */,
 			);
 			path = VarzeaTests;
+			sourceTree = "<group>";
+		};
+		56A179291D90C77E00D8B2C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		56A1792A1D90C78A00D8B2C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		56A1792B1D90C78F00D8B2C7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				56A1792F1D90CE2F00D8B2C7 /* DetalhesPeladaViewController.h */,
+				56A179301D90CE2F00D8B2C7 /* DetalhesPeladaViewController.m */,
+				56A1792C1D90C7B800D8B2C7 /* PeladaViewController.h */,
+				56A1792D1D90C7B800D8B2C7 /* PeladaViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,9 +226,6 @@
 			files = (
 				56A179081D90BB6C00D8B2C7 /* LaunchScreen.storyboard in Resources */,
 				56A179051D90BB6C00D8B2C7 /* Assets.xcassets in Resources */,
-				56A179231D90BEA000D8B2C7 /* Model in Resources */,
-				56A179251D90BEA000D8B2C7 /* ViewController in Resources */,
-				56A179241D90BEA000D8B2C7 /* View in Resources */,
 				56A179031D90BB6C00D8B2C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A1792E1D90C7B800D8B2C7 /* PeladaViewController.m in Sources */,
+				56A179311D90CE2F00D8B2C7 /* DetalhesPeladaViewController.m in Sources */,
 				56A178FD1D90BB6C00D8B2C7 /* AppDelegate.m in Sources */,
 				56A178FA1D90BB6C00D8B2C7 /* main.m in Sources */,
 			);

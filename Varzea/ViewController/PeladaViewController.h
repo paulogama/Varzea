@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PeladaViewController.h
 //  Varzea
 //
 //  Created by Paulo Gama on 9/19/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PeladaViewController : UIViewController
 
 @end
-
