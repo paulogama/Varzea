@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		561C5E151D949BDE00E30209 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 561C5E141D949BDE00E30209 /* GoogleService-Info.plist */; };
+		561C5E181D94A3D300E30209 /* AutenticacaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561C5E171D94A3D300E30209 /* AutenticacaoViewController.m */; };
+		5633E88C1D94C90B00204DEA /* FirebaseAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5633E88B1D94C90B00204DEA /* FirebaseAuth.m */; };
 		56A178FA1D90BB6C00D8B2C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A178F91D90BB6C00D8B2C7 /* main.m */; };
 		56A178FD1D90BB6C00D8B2C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A178FC1D90BB6C00D8B2C7 /* AppDelegate.m */; };
 		56A179031D90BB6C00D8B2C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A179011D90BB6C00D8B2C7 /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 		56A179131D90BB6D00D8B2C7 /* VarzeaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A179121D90BB6D00D8B2C7 /* VarzeaTests.m */; };
 		56A1792E1D90C7B800D8B2C7 /* PeladaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A1792D1D90C7B800D8B2C7 /* PeladaViewController.m */; };
 		56A179311D90CE2F00D8B2C7 /* DetalhesPeladaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A179301D90CE2F00D8B2C7 /* DetalhesPeladaViewController.m */; };
+		59A562F1D7741419500A5772 /* libPods-VarzeaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3814040C82533D836B70BF3 /* libPods-VarzeaTests.a */; };
+		A74F2464FD71AE68B33D9B87 /* libPods-Varzea.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E304FF88600F385E8B92BBB4 /* libPods-Varzea.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		113F36276E198D4DDC7630B2 /* Pods-Varzea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Varzea.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Varzea/Pods-Varzea.debug.xcconfig"; sourceTree = "<group>"; };
+		20D19DEC613AC7D7FB645DFB /* Pods-VarzeaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VarzeaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VarzeaTests/Pods-VarzeaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		561C5E141D949BDE00E30209 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		561C5E161D94A3D300E30209 /* AutenticacaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutenticacaoViewController.h; path = ViewController/AutenticacaoViewController.h; sourceTree = "<group>"; };
+		561C5E171D94A3D300E30209 /* AutenticacaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutenticacaoViewController.m; path = ViewController/AutenticacaoViewController.m; sourceTree = "<group>"; };
+		5633E88A1D94C90B00204DEA /* FirebaseAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirebaseAuth.h; path = Model/FirebaseAuth.h; sourceTree = "<group>"; };
+		5633E88B1D94C90B00204DEA /* FirebaseAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirebaseAuth.m; path = Model/FirebaseAuth.m; sourceTree = "<group>"; };
 		56A178F51D90BB6C00D8B2C7 /* Varzea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Varzea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A178F91D90BB6C00D8B2C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56A178FB1D90BB6C00D8B2C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +55,11 @@
 		56A1792D1D90C7B800D8B2C7 /* PeladaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeladaViewController.m; path = ViewController/PeladaViewController.m; sourceTree = "<group>"; };
 		56A1792F1D90CE2F00D8B2C7 /* DetalhesPeladaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetalhesPeladaViewController.h; path = ViewController/DetalhesPeladaViewController.h; sourceTree = "<group>"; };
 		56A179301D90CE2F00D8B2C7 /* DetalhesPeladaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetalhesPeladaViewController.m; path = ViewController/DetalhesPeladaViewController.m; sourceTree = "<group>"; };
+		56F8862E1D94ACED0014DB66 /* Varzea.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Varzea.entitlements; sourceTree = "<group>"; };
+		846D6711F9B855988D393F5F /* Pods-Varzea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Varzea.release.xcconfig"; path = "Pods/Target Support Files/Pods-Varzea/Pods-Varzea.release.xcconfig"; sourceTree = "<group>"; };
+		A3814040C82533D836B70BF3 /* libPods-VarzeaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VarzeaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FC1A66ECE4AF328E35A66E /* Pods-VarzeaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VarzeaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VarzeaTests/Pods-VarzeaTests.release.xcconfig"; sourceTree = "<group>"; };
+		E304FF88600F385E8B92BBB4 /* libPods-Varzea.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Varzea.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74F2464FD71AE68B33D9B87 /* libPods-Varzea.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,18 +75,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A562F1D7741419500A5772 /* libPods-VarzeaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3247701F4D7E5D65BD35507C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E304FF88600F385E8B92BBB4 /* libPods-Varzea.a */,
+				A3814040C82533D836B70BF3 /* libPods-VarzeaTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		56A178EC1D90BB6B00D8B2C7 = {
 			isa = PBXGroup;
 			children = (
 				56A178F71D90BB6C00D8B2C7 /* Varzea */,
 				56A179111D90BB6D00D8B2C7 /* VarzeaTests */,
 				56A178F61D90BB6C00D8B2C7 /* Products */,
+				E348E7F22A70A28E646C2963 /* Pods */,
+				3247701F4D7E5D65BD35507C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +121,6 @@
 				56A178FC1D90BB6C00D8B2C7 /* AppDelegate.m */,
 				56A179011D90BB6C00D8B2C7 /* Main.storyboard */,
 				56A179041D90BB6C00D8B2C7 /* Assets.xcassets */,
-				56A179091D90BB6C00D8B2C7 /* Info.plist */,
 				56A178F81D90BB6C00D8B2C7 /* Supporting Files */,
 			);
 			path = Varzea;
@@ -100,8 +129,11 @@
 		56A178F81D90BB6C00D8B2C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				56A179091D90BB6C00D8B2C7 /* Info.plist */,
+				561C5E141D949BDE00E30209 /* GoogleService-Info.plist */,
 				56A179061D90BB6C00D8B2C7 /* LaunchScreen.storyboard */,
 				56A178F91D90BB6C00D8B2C7 /* main.m */,
+				56F8862E1D94ACED0014DB66 /* Varzea.entitlements */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,6 +150,8 @@
 		56A179291D90C77E00D8B2C7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5633E88A1D94C90B00204DEA /* FirebaseAuth.h */,
+				5633E88B1D94C90B00204DEA /* FirebaseAuth.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -132,12 +166,25 @@
 		56A1792B1D90C78F00D8B2C7 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				561C5E161D94A3D300E30209 /* AutenticacaoViewController.h */,
+				561C5E171D94A3D300E30209 /* AutenticacaoViewController.m */,
 				56A1792F1D90CE2F00D8B2C7 /* DetalhesPeladaViewController.h */,
 				56A179301D90CE2F00D8B2C7 /* DetalhesPeladaViewController.m */,
 				56A1792C1D90C7B800D8B2C7 /* PeladaViewController.h */,
 				56A1792D1D90C7B800D8B2C7 /* PeladaViewController.m */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E348E7F22A70A28E646C2963 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				113F36276E198D4DDC7630B2 /* Pods-Varzea.debug.xcconfig */,
+				846D6711F9B855988D393F5F /* Pods-Varzea.release.xcconfig */,
+				20D19DEC613AC7D7FB645DFB /* Pods-VarzeaTests.debug.xcconfig */,
+				D4FC1A66ECE4AF328E35A66E /* Pods-VarzeaTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56A179171D90BB6D00D8B2C7 /* Build configuration list for PBXNativeTarget "Varzea" */;
 			buildPhases = (
+				016F4D46186F0A59FC74305F /* [CP] Check Pods Manifest.lock */,
 				56A178F11D90BB6B00D8B2C7 /* Sources */,
 				56A178F21D90BB6B00D8B2C7 /* Frameworks */,
 				56A178F31D90BB6B00D8B2C7 /* Resources */,
+				78E643E44E84B3A3392F2368 /* [CP] Embed Pods Frameworks */,
+				3B1DC2268DA0E4E5F1B2ADAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56A1791A1D90BB6D00D8B2C7 /* Build configuration list for PBXNativeTarget "VarzeaTests" */;
 			buildPhases = (
+				9578651849EFC8DF45EE7C5E /* [CP] Check Pods Manifest.lock */,
 				56A1790A1D90BB6D00D8B2C7 /* Sources */,
 				56A1790B1D90BB6D00D8B2C7 /* Frameworks */,
 				56A1790C1D90BB6D00D8B2C7 /* Resources */,
+				E69F4AAD6DC2C42E4FA98A72 /* [CP] Embed Pods Frameworks */,
+				5017E3D057A14BFA52C1EA38 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +244,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 68289LYC3X;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					56A1790D1D90BB6D00D8B2C7 = {
 						CreatedOnToolsVersion = 8.0;
@@ -225,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56A179081D90BB6C00D8B2C7 /* LaunchScreen.storyboard in Resources */,
+				561C5E151D949BDE00E30209 /* GoogleService-Info.plist in Resources */,
 				56A179051D90BB6C00D8B2C7 /* Assets.xcassets in Resources */,
 				56A179031D90BB6C00D8B2C7 /* Main.storyboard in Resources */,
 			);
@@ -239,6 +298,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		016F4D46186F0A59FC74305F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B1DC2268DA0E4E5F1B2ADAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Varzea/Pods-Varzea-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5017E3D057A14BFA52C1EA38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VarzeaTests/Pods-VarzeaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E643E44E84B3A3392F2368 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Varzea/Pods-Varzea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9578651849EFC8DF45EE7C5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E69F4AAD6DC2C42E4FA98A72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VarzeaTests/Pods-VarzeaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56A178F11D90BB6B00D8B2C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -246,7 +398,9 @@
 			files = (
 				56A1792E1D90C7B800D8B2C7 /* PeladaViewController.m in Sources */,
 				56A179311D90CE2F00D8B2C7 /* DetalhesPeladaViewController.m in Sources */,
+				561C5E181D94A3D300E30209 /* AutenticacaoViewController.m in Sources */,
 				56A178FD1D90BB6C00D8B2C7 /* AppDelegate.m in Sources */,
+				5633E88C1D94C90B00204DEA /* FirebaseAuth.m in Sources */,
 				56A178FA1D90BB6C00D8B2C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,10 +533,13 @@
 		};
 		56A179181D90BB6D00D8B2C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113F36276E198D4DDC7630B2 /* Pods-Varzea.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Varzea/Varzea.entitlements;
 				DEVELOPMENT_TEAM = 68289LYC3X;
 				INFOPLIST_FILE = Varzea/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulogama.Varzea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -391,10 +548,13 @@
 		};
 		56A179191D90BB6D00D8B2C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846D6711F9B855988D393F5F /* Pods-Varzea.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Varzea/Varzea.entitlements;
 				DEVELOPMENT_TEAM = 68289LYC3X;
 				INFOPLIST_FILE = Varzea/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulogama.Varzea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -403,6 +563,7 @@
 		};
 		56A1791B1D90BB6D00D8B2C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D19DEC613AC7D7FB645DFB /* Pods-VarzeaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 68289LYC3X;
@@ -416,6 +577,7 @@
 		};
 		56A1791C1D90BB6D00D8B2C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4FC1A66ECE4AF328E35A66E /* Pods-VarzeaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 68289LYC3X;
@@ -446,6 +608,7 @@
 				56A179191D90BB6D00D8B2C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56A1791A1D90BB6D00D8B2C7 /* Build configuration list for PBXNativeTarget "VarzeaTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +617,7 @@
 				56A1791C1D90BB6D00D8B2C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
