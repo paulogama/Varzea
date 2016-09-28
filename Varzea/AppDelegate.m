@@ -11,6 +11,7 @@
 #import "FirebaseAuth.h"
 
 #import <GoogleSignIn/GoogleSignIn.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 
 @import Firebase;
 
@@ -70,9 +71,17 @@
             openURL:(NSURL *)url
   sourceApplication:(NSString *)sourceApplication
          annotation:(id)annotation {
-    return [[GIDSignIn sharedInstance] handleURL:url
-                               sourceApplication:sourceApplication
-                                      annotation:annotation];
+    
+    if ([[GIDSignIn sharedInstance] handleURL:url
+                            sourceApplication:sourceApplication
+                                   annotation:annotation]) {
+        return YES;
+    }
+    
+    return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                          openURL:url
+                                                sourceApplication:sourceApplication
+                                                       annotation:annotation];
 }
 
 - (void)signIn:(GIDSignIn *)signIn didSignInForUser:(GIDGoogleUser *)user withError:(NSError *)error {

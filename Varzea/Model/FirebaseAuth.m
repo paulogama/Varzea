@@ -14,8 +14,10 @@
 
 #warning REFATORAR BLOCK COMPLETITION
 + (void)authenticateWithFBSDKAccessToken:(FBSDKAccessToken *)accessToken andBlock:(void(^)(BOOL success))block {
-    if(!accessToken)
+    if(!accessToken) {
         block(false);
+        return;
+    }
     
     FIRAuthCredential *credential = [FIRFacebookAuthProvider credentialWithAccessToken:accessToken.tokenString];
     
@@ -25,8 +27,10 @@
 }
 
 + (void)authenticateWithGIDAuthentication:(GIDAuthentication *)authentication andBlock:(void(^)(BOOL success))block {
-    if(!authentication)
+    if(!authentication) {
         block(false);
+        return;
+    }
     
     FIRAuthCredential *credential = [FIRGoogleAuthProvider credentialWithIDToken:authentication.idToken
                                                                      accessToken:authentication.accessToken];
