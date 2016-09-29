@@ -7,6 +7,7 @@ target 'Varzea' do
   pod 'FBSDKLoginKit'
   pod 'Firebase'
   pod 'Firebase/Auth'
+  pod 'Firebase/Database'
   pod 'GoogleSignIn'
   
   target 'VarzeaTests' do

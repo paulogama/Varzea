@@ -28,9 +28,9 @@
     [GIDSignIn sharedInstance].clientID = [FIRApp defaultApp].options.clientID;
     [GIDSignIn sharedInstance].delegate = self;
     
-    NSError *error;
-#warning REMOVE THIS LINE TO AVOID SIGNOUT
-    [[FIRAuth auth] signOut:&error];
+//    NSError *error;
+//#warning REMOVE THIS LINE TO AVOID SIGNOUT
+//    [[FIRAuth auth] signOut:&error];
     
     [[FIRAuth auth] addAuthStateDidChangeListener:^(FIRAuth *_Nonnull auth,
                                                     FIRUser *_Nullable user) {
