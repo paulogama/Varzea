@@ -8,10 +8,16 @@
 
 #import "PeladaViewController.h"
 #import "DetalhesPeladaViewController.h"
+#import "Pelada.h"
+
+@import Firebase;
 
 @interface PeladaViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableViewPeladas;
+
+@property (nonatomic) FIRDatabaseReference *refPeladas;
+@property (nonatomic) NSMutableArray *arrayPeladas;
 
 @end
 
@@ -20,11 +26,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    _arrayPeladas = [[NSMutableArray alloc] init];
     
+    _refPeladas = [[FIRDatabase database] referenceWithPath:@"peladas"];
+    [_refPeladas observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot * _Nonnull snapshot) {
+        for (FIRDataSnapshot *item in snapshot.children) {
+            Pelada *pelada = [[Pelada alloc] initWithFirebaseSnapshot:item.value];
+            [_arrayPeladas addObject:pelada];
+        }
+        
+        [_tableViewPeladas reloadData];
+    }];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    return [_arrayPeladas count];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -37,7 +53,9 @@
     if(!cell)
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cell"];
     
-    cell.textLabel.text = [NSString stringWithFormat:@"%ld", (long)indexPath.row];
+    Pelada *pelada = [_arrayPeladas objectAtIndex:indexPath.row];
+    
+    cell.textLabel.text = pelada.nome;
     cell.detailTextLabel.text = [NSString stringWithFormat:@"TESTE"];
     cell.imageView.image = [UIImage imageNamed:@"teste"];
     
