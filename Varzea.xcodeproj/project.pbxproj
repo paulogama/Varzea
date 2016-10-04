@@ -10,6 +10,7 @@
 		561C5E151D949BDE00E30209 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 561C5E141D949BDE00E30209 /* GoogleService-Info.plist */; };
 		561C5E181D94A3D300E30209 /* AutenticacaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561C5E171D94A3D300E30209 /* AutenticacaoViewController.m */; };
 		5633E88C1D94C90B00204DEA /* FirebaseAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5633E88B1D94C90B00204DEA /* FirebaseAuth.m */; };
+		566DE36B1DA3345B0005DDDC /* NovaPeladaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566DE36A1DA3345B0005DDDC /* NovaPeladaViewController.m */; };
 		56A178FA1D90BB6C00D8B2C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A178F91D90BB6C00D8B2C7 /* main.m */; };
 		56A178FD1D90BB6C00D8B2C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A178FC1D90BB6C00D8B2C7 /* AppDelegate.m */; };
 		56A179031D90BB6C00D8B2C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A179011D90BB6C00D8B2C7 /* Main.storyboard */; };
@@ -41,6 +42,8 @@
 		561C5E171D94A3D300E30209 /* AutenticacaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutenticacaoViewController.m; path = ViewController/AutenticacaoViewController.m; sourceTree = "<group>"; };
 		5633E88A1D94C90B00204DEA /* FirebaseAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirebaseAuth.h; path = Model/FirebaseAuth.h; sourceTree = "<group>"; };
 		5633E88B1D94C90B00204DEA /* FirebaseAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirebaseAuth.m; path = Model/FirebaseAuth.m; sourceTree = "<group>"; };
+		566DE3691DA3345B0005DDDC /* NovaPeladaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NovaPeladaViewController.h; path = ViewController/NovaPeladaViewController.h; sourceTree = "<group>"; };
+		566DE36A1DA3345B0005DDDC /* NovaPeladaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NovaPeladaViewController.m; path = ViewController/NovaPeladaViewController.m; sourceTree = "<group>"; };
 		56A178F51D90BB6C00D8B2C7 /* Varzea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Varzea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A178F91D90BB6C00D8B2C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56A178FB1D90BB6C00D8B2C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 				561C5E171D94A3D300E30209 /* AutenticacaoViewController.m */,
 				56A1792F1D90CE2F00D8B2C7 /* DetalhesPeladaViewController.h */,
 				56A179301D90CE2F00D8B2C7 /* DetalhesPeladaViewController.m */,
+				566DE3691DA3345B0005DDDC /* NovaPeladaViewController.h */,
+				566DE36A1DA3345B0005DDDC /* NovaPeladaViewController.m */,
 				56A1792C1D90C7B800D8B2C7 /* PeladaViewController.h */,
 				56A1792D1D90C7B800D8B2C7 /* PeladaViewController.m */,
 			);
@@ -408,6 +413,7 @@
 				5633E88C1D94C90B00204DEA /* FirebaseAuth.m in Sources */,
 				56CE25D51D9CAFBB003983E8 /* Pelada.m in Sources */,
 				56A178FA1D90BB6C00D8B2C7 /* main.m in Sources */,
+				566DE36B1DA3345B0005DDDC /* NovaPeladaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
