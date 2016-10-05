@@ -17,7 +17,7 @@
                         <viewControllerLayoutGuide type="bottom" id="HOB-uv-9eh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9Yn-CQ-dpk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -35,8 +35,8 @@
                         <viewControllerLayoutGuide type="top" id="zmC-pK-Sqp"/>
                         <viewControllerLayoutGuide type="bottom" id="2mf-eM-8gf"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="4vT-xJ-9wU" customClass="UIScrollView">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" contentMode="scaleToFill" id="4vT-xJ-9wU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sem_imagem" translatesAutoresizingMaskIntoConstraints="NO" id="dBe-sn-oxi">
@@ -137,10 +137,11 @@
                         <viewControllerLayoutGuide type="bottom" id="JQ8-hB-7dW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="esC-04-wxS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="MVE-W2-3lm">
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="QNw-7s-jYh"/>
+                            <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="MVE-W2-3lm">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="OVk-GY-jVj" id="sM5-H3-ubT"/>
@@ -150,10 +151,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="MVE-W2-3lm" secondAttribute="bottom" id="j8b-WH-nk7"/>
+                            <constraint firstItem="MVE-W2-3lm" firstAttribute="centerX" secondItem="esC-04-wxS" secondAttribute="centerX" id="IqM-fM-pAg"/>
+                            <constraint firstItem="QNw-7s-jYh" firstAttribute="centerY" secondItem="esC-04-wxS" secondAttribute="centerY" id="KW5-mj-Ncd"/>
+                            <constraint firstItem="MVE-W2-3lm" firstAttribute="top" secondItem="hF8-2m-C6q" secondAttribute="bottom" id="MFB-7P-KjB"/>
+                            <constraint firstItem="JQ8-hB-7dW" firstAttribute="top" secondItem="MVE-W2-3lm" secondAttribute="bottom" id="Oav-Nc-xbL"/>
+                            <constraint firstItem="QNw-7s-jYh" firstAttribute="centerX" secondItem="esC-04-wxS" secondAttribute="centerX" id="bdg-Yn-wML"/>
                             <constraint firstItem="MVE-W2-3lm" firstAttribute="leading" secondItem="esC-04-wxS" secondAttribute="leading" id="rOh-DQ-Xu7"/>
                             <constraint firstAttribute="trailing" secondItem="MVE-W2-3lm" secondAttribute="trailing" id="rba-F9-vyb"/>
-                            <constraint firstItem="MVE-W2-3lm" firstAttribute="top" secondItem="esC-04-wxS" secondAttribute="top" id="uDY-mQ-AB4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Peladas" id="j8b-AE-yvH">
@@ -165,13 +169,14 @@
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
+                        <outlet property="activityIndicatorVIew" destination="QNw-7s-jYh" id="s1n-AJ-d7H"/>
                         <outlet property="tableViewPeladas" destination="MVE-W2-3lm" id="Yo0-rD-rwb"/>
                         <segue destination="OqH-rg-DJs" kind="show" identifier="DetalhesPeladaSegue" id="ERy-1W-ybY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L6M-ZY-jPH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1631.2" y="-376.46176911544228"/>
+            <point key="canvasLocation" x="1629.375" y="-377.11267605633805"/>
         </scene>
         <!--Detalhes Pelada View Controller-->
         <scene sceneID="cCC-ba-Y9N">
@@ -182,7 +187,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Wlt-gt-pWp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NjT-X0-PcI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -200,7 +205,7 @@
                         <viewControllerLayoutGuide type="bottom" id="b9C-Tt-0AE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hSO-5W-Bjr">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gNV-K2-WwW" customClass="GIDSignInButton">

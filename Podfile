@@ -9,6 +9,7 @@ target 'Varzea' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'GoogleSignIn'
+  pod 'IQKeyboardManager'
   
   target 'VarzeaTests' do
     inherit! :search_paths

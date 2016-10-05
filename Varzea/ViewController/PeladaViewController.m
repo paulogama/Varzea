@@ -14,8 +14,8 @@
 
 @interface PeladaViewController () <UITableViewDelegate, UITableViewDataSource>
 
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicatorVIew;
 @property (weak, nonatomic) IBOutlet UITableView *tableViewPeladas;
-
 @property (nonatomic) FIRDatabaseReference *refPeladas;
 @property (nonatomic) NSMutableArray *arrayPeladas;
 
@@ -35,6 +35,8 @@
             [_arrayPeladas addObject:pelada];
         }
         
+        [_activityIndicatorVIew stopAnimating];
+        _tableViewPeladas.hidden = NO;
         [_tableViewPeladas reloadData];
     }];
 }

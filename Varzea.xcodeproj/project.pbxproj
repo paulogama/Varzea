@@ -97,6 +97,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		56331D351DA4974B002BDA23 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		56A178EC1D90BB6B00D8B2C7 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +127,7 @@
 		56A178F71D90BB6C00D8B2C7 /* Varzea */ = {
 			isa = PBXGroup;
 			children = (
+				56331D351DA4974B002BDA23 /* Util */,
 				56A179291D90C77E00D8B2C7 /* Model */,
 				56A1792A1D90C78A00D8B2C7 /* View */,
 				56A1792B1D90C78F00D8B2C7 /* ViewController */,

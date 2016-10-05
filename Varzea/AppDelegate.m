@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "AutenticacaoViewController.h"
 #import "FirebaseAuth.h"
+#import "IQKeyboardManager.h"
 
 #import <GoogleSignIn/GoogleSignIn.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
@@ -38,6 +39,8 @@
             [self showLoginScreen];
         }
     }];
+    
+    [[IQKeyboardManager sharedManager] setEnable:YES];
     
     return YES;
 }
